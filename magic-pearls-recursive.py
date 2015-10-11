@@ -6,7 +6,7 @@ pearls = [int(x) for x in pearls]
 final_sum = 0
 
 def restring_pearls(pearls, final_sum):
-    
+
     if len(pearls) < 2:
         print final_sum % ((10 ** 9) + 7)
 
@@ -21,7 +21,7 @@ def restring_pearls(pearls, final_sum):
     pearls.append(sum_smallest)
 
     restring_pearls(pearls, final_sum)
-    
-restring_pearls(pearls, final_sum)    
+
+restring_pearls(pearls, final_sum)
 
 # print final_sum % ((10 ** 9) + 7)
